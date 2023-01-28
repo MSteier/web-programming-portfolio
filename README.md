@@ -1,7 +1,7 @@
 # CIS195-Internet-Programming-Essentials
 
 
-
+These are just a few simple HTML and CSS and client side scripts ( Vanilla Javascript) I've written for school projects to demonstrate my abilities to do front end web programming. this is not meant to be a comprehensive sampling of my abilities as Im continuously learning new technologies to add to my skill set.  
 
 
 My examples will include 4 of my most recent projects Im continually improving and working on my skills.

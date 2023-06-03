@@ -1,4 +1,4 @@
-  # CIS195-Internet-Programming-Essentials and CIS 196 Internet Programming II
+  # Examples of work completed while enrolled in the Web Programming Certificate at Southeast Tech
 
 
 These are just a few simple HTML and CSS and client side scripts ( Vanilla Javascript) I've written for school projects to demonstrate my abilities to do front end web programming. this is not meant to be a comprehensive sampling of my abilities as Im continuously learning new technologies to add to my skill set.  

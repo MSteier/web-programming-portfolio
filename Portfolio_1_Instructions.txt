@@ -1,0 +1,72 @@
+Rubric Points:
+	Communication/Professionalism
+		-Comments
+			1pt: Do they give a high level summary?
+			1pt: Are they accurate?
+		-Organization
+			1pt: Do the filenames reflect the content of the files?
+			1pt: Is the code readable
+
+	Total:  __/4
+	
+	Tech Skills
+		-Does it work?
+			1pt: The main program/page runs/launches correctly initially
+			2pt: Additional pages/components run/launch
+			1pt: The program/page avoids both visual and logical errors
+	
+	Total:  __/4
+
+	Critical Thinking
+		-Program is flexible
+			-2pt: The program/pages are modular, and components can be swapped without issue
+			-2pt: The solution integrates the project requirements/new material from the current unit to approach the solution.
+
+	Total:  __/4
+	
+	
+Total rubric points: __/12
+
+Requirements:
+	1.	Create a new folder in your www folder.
+	2.	Create an index page 
+	3.	Create an external css file for applying a common style to each page in your portfolio
+		-This can be as simple or complex as you desire
+	4.	Create a file which defines a nav element, which will be updated as you add pages to your site. 
+		a. Use this file to place a nav element on each page.
+	5.	Create pages for at least two courses youâ€™ve taken at STC (excluding this one), and include the topics you covered in that course as well as demonstrations of your work from that course.
+		-This may include PowerPoint presentations, source code for projects, etc.
+		-These pages can also be index pages for a sub-folder you create, with multiple pages to demonstrate your work in a particular area.
+	6.  Create a form, on a new or existing page, which takes user input and submits it to another page, which should display output that is affected by the user's input from the previous page.
+	7.	Optionally, include your resume and a page overviewing yourself and your qualifications.
+
+
+Percent of requirements met: __/100%
+
+Total score: (__*__%)/12
+	-The total score will take your rubric points multiplied by your requirements met
+	-This means that scoring 12 rubric points but only completing 50% of the requirements will result in 6/12 (12*50%)/12.
+
+	
+Other Guidelines:
+	What should be commented/documented:
+		-Functions
+			-Describe the parameters
+				-Any particulars on formatting?
+			-Describe the return value if it's not immediately clear
+				-Should we expect a string formatted in a particular way?
+			-What does the function do, if it's not apparent from the name/params/returns.
+		
+		-Complex sections
+			-If the section does a lot of math, label what problem it's solving
+			-Don't need to know why the math works, but if it's an existing problem, give a name or way to look up what the problem is
+			
+		-File/Library heads
+			-Give a brief overview of your libraries at the top
+			-Same with other files. What do they do? Are they intended as a main page? A component that does math? Etc.
+		
+		-Too many comments can impair readability.
+		-Comments should be high level
+			-Can other programmers get an idea of your approach?
+			-Others don't need to understand your syntax, we know how to program
+			-We need to know the *process* of the operation

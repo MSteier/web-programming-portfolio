@@ -1,0 +1,36 @@
+/* Student: Mike Steier
+* Date:06/01/2023
+* Description: main style for all pages.
+*/
+
+h1 {
+    text-align: center;
+}
+
+html {
+    background-color:rgb(1, 1, 79);
+
+}
+
+body { 
+    background-color: ghostwhite;
+    color:black;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 115px;
+    margin-right: 115px;
+    padding-top: 30;
+    padding-left: 10px; 
+    padding-right: 10px;
+    padding-bottom:20px;
+}
+
+p {
+    font-family: "sans-serif";
+    font-size: larger;
+}
+
+li {
+    font-family: "sans-serif";
+    font-size: larger;
+}

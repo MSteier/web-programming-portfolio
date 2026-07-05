@@ -6,3 +6,10 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+
+# Game save data
+vibe-code/snake-game/high_scores.json

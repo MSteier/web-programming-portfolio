@@ -9,6 +9,7 @@ This is not a comprehensive sampling of my abilities — I'm continuously learni
 ```
 portfolio-site/   PHP portfolio website (home, resume, coursework pages, contact form)
 projects/         Standalone front-end projects, each in its own folder
+vibe-code/        Python projects built with AI-assisted ("vibe") coding
 ```
 
 ## Portfolio Site
@@ -39,8 +40,19 @@ Each project is self-contained — open its `index.html` (or the page noted belo
 | [`future-value-calculator`](projects/future-value-calculator/) | Compound-interest future value calculator. | Form input, arithmetic, DOM updates |
 | [`test-scores`](projects/test-scores/) | Test score statistics built with arrays. | Arrays, iteration |
 
+## Vibe Code
+
+Python projects built through AI-assisted coding. Run each with `python <file>.py` (the snake game requires [Pygame](https://www.pygame.org): `pip install pygame`).
+
+| Project | Description | Skills Demonstrated |
+|---|---|---|
+| [`snake-game`](vibe-code/snake-game/) | Classic snake game built with Pygame, in two versions: `snake_game.py` (basic, with sound effects) and `Snake_game_high_score.py` ("Wiggles the Snake – High Score Edition") with a persistent top-10 high score board, milestone messages, and arcade-style initials entry. | Pygame, game loops, collision detection, JSON persistence |
+| [`rock-paper-scissors`](vibe-code/rock-paper-scissors/) | Command-line rock-paper-scissors against the computer, with input validation and a quit option. Run `main.py`. | Control flow, input validation, random module |
+| [`days-ago-app`](vibe-code/days-ago-app/) | Enter a number of days and get back the calendar date and day of the week it fell on. | datetime module, string formatting |
+
 ## Technologies
 
 - HTML5 & CSS3 (responsive design, media queries, image maps)
 - Vanilla JavaScript (DOM manipulation, form validation, timers)
 - PHP (multi-page site structure, form handling)
+- Python (Pygame, CLI apps, AI-assisted development)

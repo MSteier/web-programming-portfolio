@@ -17,7 +17,7 @@
                 <li><a href="internet_programming_II.php">Internet Programming II</a></li>
                 <li><a href="internet_programming_essentials.php">Internet Programming Essentials</a></li>
                 <li><a href="contact_form.php">Contact Form</a></li>
-                <li><a href="https://github.com/MSteier/CIS195-Internet-Programming-Essentials">Work Examples</a></li>
+                <li><a href="https://github.com/MSteier/web-programming-portfolio">Work Examples</a></li>
             </ul>
         </div>
     </nav>

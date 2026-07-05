@@ -1,0 +1,84 @@
+/* Author:Michael Steier
+   Date:09/20/2022
+   Description: sets styles of all pages with snake information
+   filename: all.css
+   */
+   
+   /* Linear gradient for the body of pages with snake info */
+   html {
+    background: linear-gradient(black, grey, rgb(140, 138, 138)); 
+    
+    /* adds shadows to the edges of the page */
+    
+   }
+   body {
+    border-left: 1px solid rgb(51, 51, 51);
+    border-right: 1px solid rgb(51, 51, 51);
+    box-shadow: rgb(51, 51, 51) 15px 0px 25px,
+                rgb(51, 51, 51) -15px 0px 25px;
+
+   }
+
+   /* defines width and heigth of grid sections */
+
+   .wrapper {
+    display:grid;
+    grid-template-columns: 80% 20% ;
+}
+
+
+  .wrapper > div {
+    background: white(136, 134, 134);
+    padding: 12px;
+  }
+
+/* colors grid columns and rows dark grey */
+  .wrapper > div:nth-child(odd) {
+    background: rgb(74, 73, 73);
+  }
+  
+
+/* class to center elements as need */
+  .center {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+  /* helps posistion my pictures */
+
+  img {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  margin: 20px auto 0px;
+  width: 80%
+  }
+
+/* makes text color white */
+  body {
+    color: white;
+  }
+  
+  /* Shadows my Level 1 header elements */
+  
+  h1 {
+    color: white;
+    text-shadow: rgb(51, 51, 51)2px 2px 1px;
+  }
+/* used to help center text in my paragraph elements in the right column */
+ 
+p {
+    text-align: center;
+  }
+
+/* displays links as white text with no underline */
+ 
+a {
+    text-decoration: none;
+    color:white;
+  }
+  
+  

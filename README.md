@@ -1,16 +1,46 @@
-  # Examples of work completed while enrolled in the Web Programming Certificate Program at Southeast Tech
+# Web Programming Portfolio
 
+Selected coursework from the **Web Programming Certificate Program at Southeast Technical College** (CIS 195 Internet Programming Essentials and CIS 196), demonstrating front-end development with HTML, CSS, vanilla JavaScript, and PHP.
 
-These are just a few simple HTML and CSS and client side scripts ( Vanilla Javascript) I've written for school projects to demonstrate my abilities to do front end web programming. this is not meant to be a comprehensive sampling of my abilities as Im continuously learning new technologies to add to my skill set.  
+This is not a comprehensive sampling of my abilities — I'm continuously learning new technologies and adding to my skill set.
 
+## Repository Structure
 
-My examples will include 4 of my most recent projects Im continually improving and working on my skills.
-Unit 2 is a venomous snake of the world site. It has 4 pages. The assignment demonstrates my ability to use hotspots. You will notice the first 2 hotspots are in Southern California for the western diamond back rattle snake and Eastern Arizona for the Sonoran coral snake. The hotspots link to a separate page with information about two venomous species of snakes from that part of the world. The next link can be found in Africa in the middle of the continent and to the right near where Ethiopia is on the map. There you will find a link to the Gaboon viper.  The final fourth link is visible when your move the mouse cursor over the eastern portion of India. There you will find a link for the Russell’s viper.
+```
+portfolio-site/   PHP portfolio website (home, resume, coursework pages, contact form)
+projects/         Standalone front-end projects, each in its own folder
+```
 
-Unit 3 demonstrates the use of media queries and responsive design. The sight should adapt to look clean for all screen types.
+## Portfolio Site
 
-Tutorial 4 is demonstrates how CSS and HTML can be used in graphic design. Like the venomous snake site from the home page, it utilizes hotspots with clickable areas where clicking on the face of each family member will take you to their respective page on the site with information about the family member whose face you clicked. 
+A small multi-page PHP site with shared navigation, a resume page, and a contact form with client-side validation. To run it locally:
 
-Homework 7 demonstrates the use of webforms by implementing a customer satisfaction survey. The form just checks the information entered by the user and validates whether or not the information entered by the user is valid or invalid. 
+```
+cd portfolio-site
+php -S localhost:8000
+```
 
+Then open http://localhost:8000 in a browser.
 
+## Projects
+
+Each project is self-contained — open its `index.html` (or the page noted below) in a browser.
+
+| Project | Description | Skills Demonstrated |
+|---|---|---|
+| [`venomous-snakes-website`](projects/venomous-snakes-website/) | Multi-page site about venomous snakes of the world. Hotspots on a world map (Southern California, Eastern Arizona, central Africa, eastern India) link to pages for the western diamondback, Sonoran coral snake, Gaboon viper, and Russell's viper. Start at `default.html`. | HTML image maps / hotspots, multi-page layout |
+| [`happy-hound-responsive-site`](projects/happy-hound-responsive-site/) | Dog-care site that adapts cleanly to all screen sizes. | Media queries, responsive design |
+| [`komatsu-family-website`](projects/komatsu-family-website/) | Family website where clicking each member's face in a group photo navigates to their page. Start at `html/tb_komatsu.html`. | CSS/HTML graphic design, image hotspots |
+| [`customer-survey-form`](projects/customer-survey-form/) | Customer satisfaction survey that validates user input and flags valid/invalid entries. Start at `rb_survey.html`. | Web forms, client-side validation, regular expressions |
+| [`slide-show`](projects/slide-show/) | Image slideshow with preloaded images, captions, and pause/resume controls. Start at `MS_index.html`. | DOM manipulation, timers, image preloading |
+| [`registration-form`](projects/registration-form/) | Registration form with validation and a confirmation page. Start at `MS_index.html`. | Web forms, JavaScript validation |
+| [`guessing-game`](projects/guessing-game/) | Number guessing game (CIS 196 Assessment 1). | Control flow, user input handling |
+| [`fibonacci-sequence`](projects/fibonacci-sequence/) | Fibonacci sequence generator. | Loops, algorithms |
+| [`future-value-calculator`](projects/future-value-calculator/) | Compound-interest future value calculator. | Form input, arithmetic, DOM updates |
+| [`test-scores`](projects/test-scores/) | Test score statistics built with arrays. | Arrays, iteration |
+
+## Technologies
+
+- HTML5 & CSS3 (responsive design, media queries, image maps)
+- Vanilla JavaScript (DOM manipulation, form validation, timers)
+- PHP (multi-page site structure, form handling)

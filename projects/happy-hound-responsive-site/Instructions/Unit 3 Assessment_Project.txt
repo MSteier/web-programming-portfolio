@@ -1,0 +1,72 @@
+Unit 3 Assessment: Mobile Websites
+
+For this assessment, we'll be building a responsive site design. You can adjust your previous projects, or you can start from scratch. Sometimes building something from the ground up can work much better. 
+
+This assignment will only require 1 page, but if you want to build more, make sure they ALL scale properly to mobile devices.
+
+For creating a site layout, I would also suggest drawing out the mobile and desktop versions of the site before starting on them. Then, you can re-arrange things to fit the template. 
+
+Remember to reference how other sites are laid out, and see what you can come up with for a layout based on what you observe.  
+
+Appropriate sizes for mobile sites might be: 
+	-992px or less: mobile
+	-1100px or less: tablet
+	->1100px: desktop
+
+=======================
+=====REQUIREMENTS======
+=======================
+
+-Build at least 1 page
+-Build a nav that features submenus
+	-These submenu links don't need to have link attributes, but at least plan out what pages you would put there if you completed the site
+-The mobile site should use a navicon menu (the little icon with three lines that drops down a pull down menu)
+	-It might be helpful to change the layout of the page when using this as well. 
+	-Maybe use order and float rules to re-order the header of the page so that it changes onto one line?
+	-Think cleverly about your selectors
+-At least two uses of flexboxes to order appropriate content. 
+	-Maybe these are nested, such as creating an aside/main section, and then ordering some figures and divs around using the main section as a flexbox?
+-Utilize a table formatted to fit stylistically with the page design
+-Add a header to the table that spans multiple columns
+-Page design must be responsive. 
+	-I want to see a clear difference between the mobile and the desktop site.
+	-This also means making sure that no window sizes break the flow of your site. It should look clean no matter the window size.
+-The site shouldn't have any strange margins, or elements overlapping or failing to adjust properly.
+-Content should fill large sections of the page appropriately.
+	-This means there shouldn't be large sections of background images, large sections without text, etc
+-Keep everything appropriate 
+-You should test your site extensively before submitting it
+	-Are there broken links?
+	-Weird scaling issues?
+	-Does the site look good?
+
+
+=======================
+========GRADING========
+=======================
+
+Basic Requirements
+
+	Does the site meet the criteria listed above?
+		1 2 3 4
+	Does the site display proper use of responsive design to create a fluid layout for mobile and desktop?
+		1 2 3 4
+
+Technical Level
+
+	Does the site display a good knowledge of HTML/CSS learned in class so far?
+		1 2 3 4
+	Does the site display a complete solution to the idea for the site?
+		1 2 3 4
+	Does the site display appropriate best practices for HTML/CSS?
+		1 2 3 4
+
+Problem Solving/Critical Thinking
+
+	Does the filestructure display proper organization of material and clarity in names of files?
+		1 2 3 4
+	Does the site demonstrate the best solution to the problem given the material covered in class?
+		1 2 3 4
+	Does the site utilize a clean layout that accounts for use on different screen sizes?
+		1 2 3 4
+

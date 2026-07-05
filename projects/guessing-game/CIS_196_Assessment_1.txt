@@ -1,0 +1,69 @@
+Unit 1 Assessment
+
+This assessment will be free-form, utilizing concepts from chapters 1-3 of the book. You may choose the content of your project, as long as it meets the guidelines below OR, if you want, I've provided a section titled OPTIONAL IDEA to give you a prompt that will meet all of the requirements naturally. 
+
+Whichever option is chosen, please remember to read the grading criteria at the bottom as well.
+
+
+=======================
+=====REQUIREMENTS======
+=======================
+
+-At least one use of an if/else statement X
+-At least one use of a loop statement X
+-At least one use of an arrayX
+-At least one use of the document.write() method to put data onto a pageX
+-At least one use of the prompt() method to get dataX
+-Data from the prompt() that the user inputs should be used or processed in some way to affect the result of the program's output X
+-At least one case of a conditional expression involving two or more logical operators (!, ||, &&) should be used to affect the program's output
+-At least one use of relational operators (!, ==, >=, etc) X
+-At least one use of string concatenation X
+-Utilize proper syntax and naming conventions that were covered in class/the textbook
+-Document your code with comments, describing the purpose of functions, code blocks, and individual lines X
+	-Generally, our rule of thumb should be that if you read the comments, you should be able to tell what each of the following lines of code is for.X
+
+
+=======================
+====OPTIONAL IDEA======
+=======================
+
+This optional idea will create and print a Fibonacci sequence. You may have heard of Fibonacci spirals, as the perfect spirals. 
+
+How the Fibonacci sequence works, is that starting with 1, each time we need the next value, we will add the two previous values together. For example, we start with 1, then 2. The next number is 3 or 2+1. After that, we take 2+3, or 5, then 8 (3+5), 13 (5+8), etc.
+
+-The page should first prompt the user for a number of steps they'd like in the sequence.
+-This should be taken and stored in a variable. Ensure that we parse an integer value for this.
+-Afterwards, we want to do validation.
+	-We should first check if the value is NaN, and if it is, we should print out that we need a number, and we shoudl not do the rest of the program.
+	-If the number of steps is less than or equal to zero, we should print out that we need at least one step, and we should not do the rest of the program.
+-Create an array to store each number in the sequence.
+-Create a loop to put each number of the sequence into the array, until we've reached the number of steps that the user wanted
+-Create another loop to print a new <p> element for each value in the array, and ensure that the value is in the <p> element.
+-Document your code with comments, describing the purpose of functions, code blocks, and individual lines
+	-Generally, our rule of thumb should be that if you read the comments, you should be able to tell what each of the following lines of code is for.
+
+=======================
+========GRADING========
+=======================
+
+Technical Level
+
+	Does the site meet the criteria listed above?
+		1 2 3 4
+		
+	Does the site display a correct result for the problem it is attempting to solve?
+		1 2 3 4
+	
+	Do the comments document code blocks and individual statements to provide a clear demonstration of the purpose of each?
+		1 2 3 4
+	
+
+Problem Solving/Critical Thinking
+
+	Does the site display consistent naming and proper use of syntax?
+		(This should apply not only to the javascript, but the html, css, and file names of the site)
+		1 2 3 4
+	
+	Does the site display an efficient solution to the problem, given the concepts and coding practices covered in the course?
+		1 2 3 4
+		
